@@ -1,3 +1,29 @@
+# React Starter Practice
+
+A Create React App starter using React 17. The App component is still the standard starter screen.
+
+**Category:** React starters
+
+[All projects](https://github.com/maamg/maamg/blob/main/PROJECTS.md) · [Programming practice](https://github.com/maamg/jhalai)
+
+## Run locally
+
+From this repository, with Node.js and npm installed:
+
+```sh
+npm ci
+npm start
+```
+
+The original project also defines `npm test` and `npm run build`. React 17 and react-scripts 4.0.3 are retained. Compatibility with current Node.js versions and dependency installation have not been tested.
+
+## Learning status
+
+The starter source overlaps with the other React exercise repository. Both histories are preserved.
+
+<details>
+<summary>Original Create React App instructions</summary>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +94,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+</details>
+
+## Main files
+
+- `.gitignore`
+- `package-lock.json`
+- `package.json`
+
+## Review scope
+
+Repository organisation and documentation were reviewed on 2026-09-27. Existing application source and asset paths were preserved. Runtime behaviour and deployed pages were not tested in this pass.
